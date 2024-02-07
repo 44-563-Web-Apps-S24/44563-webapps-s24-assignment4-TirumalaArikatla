@@ -34,8 +34,13 @@ table,th,td
 }
 th{
     text-align: center;
+    padding: 5px;
 }
 td
 {
     text-align: right;
+    padding: 8px;
 }
+tr:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
